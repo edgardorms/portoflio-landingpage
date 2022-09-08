@@ -29,11 +29,14 @@ body {background: rgb(238,174,202);
 
 .boton-up {
     position: fixed;
-    bottom: 40px;
-    right: 30px;
-    height: 3em;
-    width: 6em;
-    
+    bottom: 10px;
+    right: 10px;
+    height: 45px;
+    width: 95px;
     
     
     }
+    .quitarLink{
+        text-decoration: none
+    }
+   
