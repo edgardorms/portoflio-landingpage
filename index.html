@@ -1,238 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Ed</title>
 </head>
 
-<body>
-  <header class="d-flex justify-content-center py-3" id="header">
-    <ul class="nav nav-pills">
-      <li class="nav-item"><a href="#sobremi" class="nav-link active" aria-current="page">Home</a></li>
-      <li class="nav-item"><a href="#techs" class="nav-link">Tech's</a></li>
-      <li class="nav-item"><a href="#IT" class="nav-link">About</a></li>
+<body class="bg-slate-900 text-gray-100">
+    <div class="mx-auto max-w-screen-lg px-3 py-6">
+        <div class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between "><a
+                href="https://www.linkedin.com/in/edgardorms/" target="_blank">
+                <div
+                    class="flex items-center bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-xl font-bold text-transparent">
+                    Ed Developer
+                </div>
+            </a>
+            <nav>
+                <ul class="flex gap-x-3 font-medium text-gray-300">
 
-    </ul>
-  </header>
-  <div class="b-example-divider"></div>
+                    <li class="hover:text-white"><a href="#proyectos">Proyectos</a></li>
 
-  <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4 borde img-fluid" id="sobremi" src="./images/Ed.jpg" alt="" width="600px"
-      height="600px">
-    <h1 class="display-5 fw-bold">Sobre mi</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Desarrollador web, me encuentro dando mis primeros pasos en el mercado IT, con conocimientos
-        solidos en HTML, CSS y Javascript. Para realizar el frontend de una página tanto estática como dinámica.
-        Interesado en el área IT para desarrollarme laboralmente, facilidad para trabajar en equipo, me gusta aprender,
-        no tengo miedo a preguntar dudas.
-
-        Doy prioridad a una oferta laboral donde pueda aprender y crecer.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-      </div>
+                </ul>
+            </nav>
+        </div>
     </div>
-  </div>
 
-  <section class="container px-4 py-5" id="hanging-icons">
-    <h2 class="pb-2 border-bottom" id="techs">Tecnologias</h2>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="mx-auto max-w-screen-lg px-3 py-6">
+        <div class="flex flex-col items-center md:flex-row md:justify-between md:gap-x-24">
+            <div>
+                <h1 class="text-3xl font-bold">Hola, soy <span
+                        class="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">Edgardo </span>
+                    😀</h1>
+                <p class="mt-6 text-xl leading-9">Desarrollador web, he hecho cursos online en Coderhouse, Platzi y Codo
+                    a codo, también aprendo con la documentación de la tecnología que estoy utilizando, actualmente
+                    realizando proyectos con REACT JS y NODEJS.
+                    Realizando Fullstack MERN y Backend C# .Net 6. Doy soluciones al Frontend aplicando mis
+                    conocimientos.
 
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 icono">
-          <img src="./images/html-5.png" alt="" width="100px" height="100px">
+                </p>
+                <div class="mt-3 flex gap-1">
+                    <a href="mailto:rhedgardo@gmail.com"><img class="h-12 w-12 hover:translate-y-1"
+                            src="./images/gmail.png" alt="Gmail icon" loading="lazy" /></a>
+                    <a href="https://www.linkedin.com/in/edgardorms/" target="_blank"><img
+                            class="h-12 w-12 hover:translate-y-1" src="./images/linkedin.png" alt="Linkedin icon"
+                            loading="lazy" /></a>
+                    <a href="https://github.com/edgardorms" target="_blank"><img class="h-12 w-12 hover:translate-y-1"
+                            src="./images/github.png" alt="Github icon" loading="lazy" /></a>
+                    <a href="https://api.whatsapp.com/send/?phone=5491139260579" target="_blank"><img
+                            class="h-12 w-12 hover:translate-y-1" src="./images/ws.png" alt="Whatsapp icon"
+                            loading="lazy" /></a>
+                    <a href="tel:+5491139260579" target="_blank"><img class="h-12 w-12 hover:translate-y-1"
+                            src="./images/tel.png" alt="phone icon" loading="lazy" /></a>
+                </div>
+            </div>
+            <div class="shrink-0 my-5 mr-[86px] hidden sm:block"><img class="h-64 w-64 rounded-full"
+                    src="./images/Ed.png" alt="Avatar image" loading="lazy" /></div>
         </div>
-        <div>
-          <h2>HTML5</h2>
-          <p>Puedo clonar sitios, crear de 0 y modificar los que ya tengas, conozco de semántica para posicionarte mejor
-            en buscadores.</p>
-
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 icono">
-          <img src="./images/css-3.png" alt="" width="100px" height="100px">
-        </div>
-        <div>
-          <h2>CSS</h2>
-          <p>Manejo de CSS para modificar el HTML, puedo hacer boxes, cambiar la coloración, usar la tipografía que más
-            te guste.</p>
-
-        </div>
-      </div>
-
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <img src="./images/js.png" alt="" width="100px" height="100px">
-        </div>
-        <div>
-          <h2>JAVASCRIPT</h2>
-          <p>Puedo dar distintos tipos de funcionalidades a tu página web, agregar apis, agregar un carrito de compras,
-            hacer dinámico tu sitio web con el DOM.</p>
-
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 icono">
-          <img src="./images/bootstrap.png" alt="" width="100px" height="100px">
-        </div>
-        <div>
-          <h2>BOOTSTRAP</h2>
-          <p>Perfecto para diseñar sitios modernos y responsives con una gran velocidad, complementandolo con el CSS
-            para darle tu toque personalizado.</p>
-
-        </div>
-      </div>
-
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 icono">
-          <img src="./images/git.png" alt="" width="100px" height="100px">
-        </div>
-        <div>
-          <h2>GIT</h2>
-          <p>Utilizo la herramienta para guardar mis proyectos a medida que los voy haciendo, perfecto para trabajar en
-            equipo.</p>
-
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 icono">
-          <img src="./images/react.png" alt="" width="100px" height="100px">
-        </div>
-        <div>
-          <h2>REACT JS</h2>
-          <p>Puedo importar complementos, crearlos, usar bootstrap react.</p>
-
-
-        </div>
-      </div>
     </div>
-  </section>
+    <div class="mx-auto max-w-screen-lg px-3 py-6" id="proyectos">
+        <div class="mb-6 text-2xl font-bold">Recent <span
+                class="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">Projects</span></div>
+        <div class="flex flex-col gap-6">
+            <div class="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
+                <div class="shrink-0"><a href="https://edgardorms.github.io/Ed-Store/" target="_blank"><img
+                            class="h-36 w-36 hover:translate-y-1" src="./images/ecommerce.png" alt="Project Web Design"
+                            loading="lazy" /></a>
+                </div>
+                <div>
+                    <div class="flex flex-col items-center gap-y-2 md:flex-row"><a class="hover:text-cyan-400"
+                            href="https://edgardorms.github.io/Ed-Store/" target="_blank">
+                            <div class="text-xl font-semibold">Ecommerce</div>
+                        </a>
+                        <div class="ml-3 flex gap-2">
 
-  <section class="container px-4 py-5" id="hanging-icons">
-    <h2 class="pb-2 border-bottom" id="techs">Mis Proyectos</h2>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-lime-400 text-lime-900">Responsive
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-sky-400 text-sky-900">Tailwind.css
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-sky-300 text-sky-800">React Js
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mt-3 text-gray-400">Ecommerce con carrito functional, realizado en ReactJs, consumiendo
+                        API REST de items, simula tienda real.</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
+                <div class="shrink-0"><a href="https://crud-edgardorms.herokuapp.com/" target="_blank"><img
+                            class="h-36 w-36 hover:translate-y-1" src="./images/crud.png" alt="Project Fire"
+                            loading="lazy" /></a></div>
+                <div>
+                    <div class="flex flex-col items-center gap-y-2 md:flex-row"><a class="hover:text-cyan-400"
+                            href="https://crud-edgardorms.herokuapp.com/" target="_blank">
+                            <div class="text-xl font-semibold">CRUD Fullstack</div>
+                        </a>
+                        <div class="ml-3 columns-2 gap-2 sm:columns-6 ">
+                            <div class="rounded-md px-2 py-1 text-xs mb-2 font-semibold bg-fuchsia-400 text-violet-900">
+                                Heroku</div>
+                            <div
+                                class="rounded-md px-2 py-1 text-xs mb-2 font-semibold bg-emerald-400 text-emerald-900">
+                                Node.js
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs mb-2 font-semibold bg-yellow-400 text-yellow-900">
+                                Express</div>
+                            <div class="rounded-md px-2 py-1 text-xs mb-2 font-semibold bg-green-500 text-green-900">
+                                MongoDb
+                            </div>
 
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 icono">
-          <img src="./images/tasklist.png" alt="" width="100px" height="100px">
+                            <div class="rounded-md px-2 py-1 text-xs mb-2 font-semibold bg-sky-400 text-sky-900">
+                                Tailwind.css
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs mb-2 font-semibold bg-sky-300 text-sky-800">React
+                                Js
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mt-3 text-gray-400">Aplicación Fullstack, Frontend hecho con React Js y estilizado con
+                        Tailwind, se comunica con API REST hecha en Nodejs para manipular base de datos MongoDB.</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
+                <div class="shrink-0"><a href="https://edgardorms.github.io/react-edd-taskList/" target="_blank"><img
+                            class="h-36 w-36 hover:translate-y-1" src="./images/tasklist.png" alt="Project Fire"
+                            loading="lazy" /></a></div>
+                <div>
+                    <div class="flex flex-col items-center gap-y-2 md:flex-row"><a class="hover:text-cyan-400"
+                            href="https://edgardorms.github.io/react-edd-taskList/" target="_blank">
+                            <div class="text-xl font-semibold">Lista de tareas (TaskList)</div>
+                        </a>
+                        <div class="ml-3 flex gap-2">
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-lime-400 text-lime-900">Responsive
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-sky-400 text-sky-900">Tailwind.css
+                            </div>
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-sky-300 text-sky-800">React Js
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mt-3 text-gray-400">App para guardar lista de tareas, las entradas quedan guardadas en el
+                        LocalStorage del usuario por lo que las puede seguir viendo.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
+                <div class="shrink-0"><a href="https://edgardorms.github.io/react-rick-morty/   " target="_blank"><img
+                            class="h-36 w-36 hover:translate-y-1 " src="./images/rickYmorty.png" alt="Project Maps"
+                            loading="lazy" /></a></div>
+                <div>
+                    <div class="flex flex-col items-center gap-y-2 md:flex-row"><a class="hover:text-cyan-400"
+                            href="https://edgardorms.github.io/react-rick-morty/" target="_blank">
+                            <div class="text-xl font-semibold">Rick and Morty APP</div>
+                        </a>
+                        <div class="ml-3 flex gap-2">
+
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-indigo-400 text-indigo-900">
+                                Bootstrap</div>
+
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-lime-400 text-lime-900">Responsive
+                            </div>
+
+                            <div class="rounded-md px-2 py-1 text-xs font-semibold bg-sky-300 text-sky-800">React Js
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mt-3 text-gray-400">App simple de manipulación de API REST, se crea un sitio dinamicamente
+                        consumiendo la API de Rick y Morty, serie que me gusta mucho por cierto. 😅</p>
+                </div>
+            </div>
         </div>
-        <div>
-          <h2>TaskList</h2>
-          <ul>
-            <li>Aplicación web, lista de tareas.
-            </li>
-            <li>Estilizado con Tailwind.</li>
-            <li>Se guarda la lista en el LocalStorage.</li>
-          </ul>
-
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 icono">
-          <img src="./images/rickYmorty.png" alt="" width="100px" height="100px">
-        </div>
-        <div>
-          <h2>Rick&Morty</h2>
-          <ul>
-            <li>App en ReactJS para aprender fundamentos.</li>
-            <li>Consumir una API y hacer una pagina dinámica con los datos que recibo.</li>
-            <li>Estilizado con bootstrap.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col d-flex align-items-start">
-        <div
-          class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <img src="./images/mern.png" alt="" width="100px" height="100px">
-        </div>
-        <div>
-          <h2>CRUD MERN</h2>
-          <ul>
-            <li>CRUD Frontend ReactJs y Backend Nodejs
-              MongoDb Atlas.
-            </li>
-            <li>Desplegado en Heroku con variables de entorno
-              para acceder a la base de datos.
-            </li>
-            <li>Estilizado con Tailwind.
-            </li>
-          </ul>
-        </div>
-      </div>
-
-
-
+    </div>
 
     </div>
-  </section>
 
-  <section class="container px-4 py-5" id="IT">
-    <h2 class="pb-2 border-bottom" id="techs">Contacto</h2>
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="./images/codigo-foto.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-          height="500" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Busco desarrollarme en el área IT</h1>
-        <p class="lead">Si llegaste hasta acá espero que me tomes en cuenta para tu busqueda, te dejo datos de contacto
-        </p>
-        <div
-          class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 icono">
-          <a href="mailto:rhedgardo@gmail.com">
-            <img src="./images/gmail.png" alt="" width="100px" height="100px">
-          </a>
-        </div>
-        <div
-          class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 icono"
-          href="https://www.linkedin.com/in/edgardorms/" target="_blank">
-          <a href="https://www.linkedin.com/in/edgardorms/" target="_blank">
-            <img src="./images/linkedin.png" alt="" width="100px" height="100px">
-          </a>
-        </div>
 
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+    <div class="mx-auto max-w-screen-lg px-3 py-6">
+        <div class="border-t border-gray-600 pt-5">
+            <div class="text-sm text-gray-200">© edgardorms 2022
+            </div>
         </div>
-      </div>
     </div>
-  </section>
-
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-        </a>
-        <span class="mb-3 mb-md-0 text-muted">© 2022 Edgardo Ramos</span>
-      </div>
-
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <button type="button" class="btn btn-light boton-up"><a href="#header" class="quitarLink"
-            aria-current="page">Subir </a>
-        </button>
-      </ul>
-    </footer>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
 
 </body>
 
